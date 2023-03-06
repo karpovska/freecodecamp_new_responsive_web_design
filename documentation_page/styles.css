@@ -35,7 +35,7 @@ nav {
   width: 300px;
 }
 
-.main-doc {
+#main-doc {
   position: absolute;
   margin-left: 300px;
   padding: 20px;
