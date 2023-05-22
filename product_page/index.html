@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin&display=swap" rel="stylesheet">
 </head>
 <body> 
     <header id="header" class="header">
@@ -27,19 +27,29 @@
     </header>
     <main class="grid-container">
         <div class="grid-content about">
-            <h1>Assorted Sunny Spring Collection</h1>
+            
             <img src="./images/flowers.jpg" width="460px"/>
+            <section class="product-desctiption">
+                <h1>Assorted Sunny Spring Collection</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="annousment">This product is unavailable for this season.</p>
+                <hr />
+            </section>
+            
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <p>Enter your email address to be notified when this item is back in stock.</p>
+                    <input id="email" name="email" type="email" placeholder="Email Address" /><br>
+                    <input type="submit" value="Notify me">              
+                    
+                </form>
+            
+            
         </div>
         <div class="grid-content video-content">
             <iframe id="video" width="760" height="520" src="https://www.youtube.com/embed/wghWxdN7rW0" title="Keukenhof 2023 - Enjoy a nice sunny day in the beautiful spring garden - 4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>        
 
-        <div class="grid-content">
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input id="email" name="email" type="email" placeholder="type your email"><input/>
-                <input type="submit" id="submit">Submit</input>
-            </form>
-        </div>
+        
 
         
     </main>
