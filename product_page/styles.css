@@ -115,3 +115,21 @@ form {
     padding-left: 10px;
     margin-left: 20px;
 }
+
+.email-submit {
+    background-color: #3c7e08;    
+    border-radius: 20px;
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    color: white;
+    font-family: Palanquin, Arial, Helvetica, sans-serif;
+    font-weight: 600;    
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.email-submit:hover {
+    background-color:#333333;
+}
