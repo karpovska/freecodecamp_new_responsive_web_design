@@ -29,6 +29,8 @@ body {
 .grid-content {
     display: grid;
     grid-column: 2 / 3;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -132,4 +134,15 @@ form {
 
 .email-submit:hover {
     background-color:#333333;
+}
+
+.video-content {
+    margin: auto;
+    margin-top: 40px;
+}
+
+h3 {
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
